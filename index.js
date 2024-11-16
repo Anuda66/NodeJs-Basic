@@ -1,4 +1,4 @@
-// Get out put on consol ----------------------
+// Get output on consol ----------------------
 const yname = "Anuda";
 console.log(yname);
 
