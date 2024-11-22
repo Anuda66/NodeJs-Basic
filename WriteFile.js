@@ -1,6 +1,6 @@
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
-import { appendFile, writeFile } from "node:fs";
+import { appendFile, readFile, writeFile } from "node:fs"; // read file get from call back
 import { log } from "node:console";
 
 const __filename = fileURLToPath(import.meta.url);

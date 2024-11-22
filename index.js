@@ -4,12 +4,12 @@ console.log(yname);
 
 //Import package-------------------
 
-import os from "node:os"
-import path1 from 'node:path'
-import {fileURLToPath} from 'node:url'
+import os from "node:os";
+import path1 from "node:path";
+import { fileURLToPath } from "node:url";
 
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = path1.dirname(__filename)
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path1.dirname(__filename);
 
 console.log(os.platform());
 console.log(os.version());
